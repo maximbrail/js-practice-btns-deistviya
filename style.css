@@ -1,0 +1,72 @@
+.color {
+    background-color: purple;
+}
+
+.color2 {
+    background-color: yellow;
+}
+
+body {
+    transition: 0.75s;
+}
+
+.box {
+    margin-top: 50px;
+
+    img {
+        width: 25%;
+    }
+
+
+}
+
+
+
+.img {
+    display: block;
+}
+
+.img2 {
+    display: none;
+}
+
+.img5{
+    display: block;
+}
+
+.img6{
+    display: none;
+}
+
+.img7{
+    display: block;
+}
+
+.img8{
+    display: none;
+}
+
+.btn {
+    padding: 30px 35px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(38, 46, 49);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.anim {
+    animation: anim1 1s infinite linear;
+}
+
+
+@keyframes anim1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
